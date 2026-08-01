@@ -1,0 +1,4 @@
+# Real config with workspace URLs / credential ids — do not commit
+migration/config.env
+# Local scratch
+/tmp/

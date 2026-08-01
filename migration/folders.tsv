@@ -1,0 +1,7 @@
+# Folder map — TAB-SEPARATED. One row per folder to migrate.
+# Column 1: SOURCE absolute path in the source workspace (never modified).
+# Column 2: path INSIDE the repo that will hold this folder (repo-relative).
+# Column 3 (optional): DEST absolute path to land at. If empty, column 1 is reused.
+# Lines starting with # and blank lines are ignored. Separators MUST be real tabs.
+/Workspace/Users/lucas.romeo@databricks.com/migration_test	migration_test
+/Workspace/Users/lucas.romeo@databricks.com/team_a	team_a
